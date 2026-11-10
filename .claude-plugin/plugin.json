@@ -1,0 +1,8 @@
+{
+  "name": "dev-workflow",
+  "description": "Claude Code adapter for the workflows under core/. Reads the host project's convention documents.",
+  "author": { "name": "CodeJelly" },
+  "skills": "./claude/skills",
+  "agents": ["./claude/agents/comment-reviewer.md"],
+  "hooks": "./claude/hooks/hooks.json"
+}

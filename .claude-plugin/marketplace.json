@@ -1,0 +1,12 @@
+{
+  "name": "dev-workflow",
+  "owner": { "name": "CodeJelly" },
+  "description": "Development workflows kept outside the projects that use them, with one adapter per tool.",
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": "./",
+      "description": "Claude Code adapter for the workflows under core/. Reads the host project's convention documents."
+    }
+  ]
+}
